@@ -31,6 +31,7 @@ Uygulama, ölçeklenebilir ve sürdürülebilir **Clean Architecture (Feature-Fi
 
 ## 📁 Proje Klasör Yapısı
 
+```text
 lib/
 ├── core/                   # Ortak sabitler, temalar ve genel bileşenler
 │   ├── constants/          # AppColors vb. renk/boyut sabitleri
@@ -46,26 +47,24 @@ lib/
 │   ├── settings/           # Ayarlar ve tema tercihleri
 │   └── stats/              # İstatistikler ve grafikler
 └── providers/              # Riverpod uygulama sağlayıcıları (app_providers.dart)
+🚀 Projeyi Yerelde Çalıştırma Rehberi
+Projeyi klonlayan herhangi bir geliştirici aşağıdaki adımları izleyerek projeyi sıfırdan ve sorunsuz şekilde kendi bilgisayarında çalıştırabilir:
 
+Gereksinimler
+Flutter SDK (3.22.0 veya üzeri)
 
----
+Dart SDK
 
-## 🚀 Projeyi Yerelde Çalıştırma Rehberi
+Android Studio / VS Code (Flutter eklentisi ile)
 
-Projeyi klonlayan herhangi bir geliştirici aşağıdaki adımları izleyerek projeyi **sıfırdan ve sorunsuz şekilde** kendi bilgisayarında çalıştırabilir:
+Bağlı bir Android/iOS emülatörü veya fiziksel cihaz
 
-### Gereksinimler
-- Flutter SDK (3.22.0 veya üzeri)
-- Dart SDK
-- Android Studio / VS Code (Flutter eklentisi ile)
-- Bağlı bir Android/iOS emülatörü veya fiziksel cihaz
+Kurulum Adımları
+Repoyu Klonlayın:
 
-### Kurulum Adımları
-
-1. **Repoyu Klonlayın:**
-   ```bash
-   git clone [https://github.com/KULLANICI_ADI/eterna_task_tracker.git](https://github.com/KULLANICI_ADI/eterna_task_tracker.git)
-   cd eterna_task_tracker
+Bash
+git clone https://github.com/BilalVolkanTas/eterna_task_tracker.git
+cd eterna_task_tracker
 Bağımlılıkları Yükleyin:
 
 Bash
